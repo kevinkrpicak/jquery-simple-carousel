@@ -1,0 +1,45 @@
+/*
+ * jQuery simple-carousel plugin - styles
+ * v1.0
+ *
+ * author Kevin Krpicak
+ *
+ */
+.slideshow-item{}
+
+    .simple-carousel-focused,
+    .simple-carousel-offset-left-2,
+    .simple-carousel-offset-left-1,
+    .simple-carousel-offset-right-1,
+    .simple-carousel-offset-right-2{
+        visibility: visible;
+    }
+
+    .simple-carousel-focused{
+        z-index:5;
+    }
+
+    /*
+     * Some default sizing and position of slide elements
+     * Feel free to change scale and translateX values.
+     */
+    .simple-carousel-offset-left-2{
+        z-index:2;
+        -moz-transform: scale(0.65) translateX(-400px);
+        -webkit-transform: scale(0.65) translateX(-400px);
+    }
+    .simple-carousel-offset-left-1{
+        z-index:4;
+        -moz-transform: scale(0.79) translateX(-197px);
+        -webkit-transform: scale(0.79) translateX(-197px);
+    }
+    .simple-carousel-offset-right-1{
+        z-index:3;
+        -moz-transform: scale(0.79) translateX(197px);
+        -webkit-transform: scale(0.79) translateX(197px);
+    }
+    .simple-carousel-offset-right-2{
+        z-index:1;
+        -moz-transform: scale(0.65) translateX(400px);
+        -webkit-transform: scale(0.65) translateX(400px);
+    }
